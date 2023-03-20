@@ -40,9 +40,14 @@ public class Rectangulo {
 
     @Override
     public String toString() {
-        return "Rectangulo{" + "esquina1=" + esquina1 + ", esquina2=" + esquina2 + '}';
+        return "Rectangulo =(" + esquina1 + ", " + esquina2 + ')';
     }
     
+    public double CalculoArea(Rectangulo r){
+        
+        return 0.0;
+    
+    }
    
             
     

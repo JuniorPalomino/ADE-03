@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package lab01_principal;
+package lab01_ejercicio_rectangulo;
 
+import java.util.*;
 /**
  *
  * @author H P
@@ -18,8 +19,10 @@ public class Coordenada {
     }
 
     public Coordenada(double x, double y) {
- 
+        this.x = x;
+        this.y = y;
     }
+    
 
     public Coordenada(Coordenada c) {
         
@@ -42,16 +45,25 @@ public class Coordenada {
     }
     
     double distancia(Coordenada c){
-        return 0.0;        
+        
+        double diferenciaX = x - c.getX();
+        double diferenciaY = y - c.getY();
+
+        return Math.sqrt(Math.pow(diferenciaX, 2) + Math.pow(diferenciaY, 2));
+            
     }
     
     static double distancia(Coordenada c1, Coordenada c2){
-        return 0.0;
+        double diferenciaX = c2.getX() - c1.getX();
+        double diferenciaY = c2.getY() - c1.getY();
+
+        return Math.sqrt(Math.pow(diferenciaX, 2) + Math.pow(diferenciaY, 2));
+            
     }
 
     @Override
     public String toString() {
-        return "Coordenada{" + "x=" + x + ", y=" + y + '}';
+        return "[" + x + ", " + y + "]";
     }
     
     

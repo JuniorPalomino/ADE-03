@@ -11,18 +11,26 @@ import javax.swing.JPanel;
  *
  * @author ADMIN
  */
-public class Lab01_Parte02_Ejercicio02 extends JPanel {
-
-     public Lab01_Parte02_Ejercicio02(){
-     
-     
-     }
+public class Lab01_Parte02_Ejercicio02 {
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String texto = JOptionPane.showInputDialog(null,
+        
+       
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        /**String texto = JOptionPane.showInputDialog(null,
                 "Introdice el codigo que desees, cadena vacia para terminar",
                 "JuntarLineasDeCodigo",
                 JOptionPane.INFORMATION_MESSAGE);
@@ -46,7 +54,10 @@ public class Lab01_Parte02_Ejercicio02 extends JPanel {
                 cadenaResultado,
                 "Resultado",
                 JOptionPane.INFORMATION_MESSAGE);
+          
+          **/
     }
+    
     
   }
 

@@ -110,12 +110,6 @@ public class Lab01_Ejercicio_Rectangulo {
         System.out.println(ContenedorRectangulos.toString());
             
             
-            
-            
-            
-            
-            
-            
     }
     
     public double rectanguloSobre(Rectangulo r1, Rectangulo r2){

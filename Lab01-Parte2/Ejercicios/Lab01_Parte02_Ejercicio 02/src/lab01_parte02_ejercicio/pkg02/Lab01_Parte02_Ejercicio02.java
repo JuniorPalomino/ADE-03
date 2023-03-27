@@ -19,16 +19,7 @@ public class Lab01_Parte02_Ejercicio02 {
         // TODO code application logic here
         
        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+        //CODIGO DE EJEMPLOO
         
         /**String texto = JOptionPane.showInputDialog(null,
                 "Introdice el codigo que desees, cadena vacia para terminar",

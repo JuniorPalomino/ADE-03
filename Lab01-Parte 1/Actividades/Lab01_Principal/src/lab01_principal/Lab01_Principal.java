@@ -85,10 +85,7 @@ public class Lab01_Principal {
         //if(Verificador.esDisjunto(A, B))
             //System.out.println("Rectangulo A y B son disjuntos");
             
-        
-        
-        
-        
+          
         
     }
     
